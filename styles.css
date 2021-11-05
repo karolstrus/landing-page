@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Robot, sans-serif;
+    overflow: hidden;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #1f2937;
+    padding: 10px;
+}
+
+.title {
+    margin-top: 0px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.right-links {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 80px;
+}
+
+.introText {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.introTitle {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.introBody {
+    margin: 0;
+    margin-bottom: 4px;
+    font-size: 18px;
+    color: #f9faf8;
+}
+img {
+    width: 400px;
+    margin-left: 20px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 6px 18px;
+    border: none;
+    color: #f9faf8;
+    font: Hero Secondary Text;
+}
